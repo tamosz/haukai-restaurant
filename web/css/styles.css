@@ -1,0 +1,62 @@
+#navbar{
+  width: 20%;
+}
+
+#homeimage{
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#homeimagecontainer {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#contactcontainer {
+  margin-top: 10vh;
+  height: 80vh;
+  margin-bottom: 10vh;
+}
+
+#contactcontainertext {
+  display: table;
+  margin-top: 10vh;
+  height: 80vh;
+  margin-bottom: 10vh;
+}
+
+#contacttext {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#menublurb {
+  text-align: center;
+}
+
+#menuimagecontainer {
+  height: 60vh;
+  overflow: hidden;
+}
+
+#menuimage {
+  object-fit: cover;
+  height: 60vh;
+}
+
+#currentspecials {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+#fullmenu {
+  margin-bottom: 10vh;
+  text-align: center;
+}
+
+#bookingform {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  height: 80vh;
+}
