@@ -5,11 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="css/styles.css"> <!--needed for a few things w3css can't do-->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GQNPPXV56"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-4GQNPPXV56');
+  </script>
 </head>
 
 <body>
   <nav>
-    <div class="w3-top"> <!--keeps nav bar at the top of the viewport-->
+    <div class="w3-top">
+      <!--keeps nav bar at the top of the viewport-->
       <div class="w3-bar w3-black">
         <a href="home.html" class="w3-bar-item w3-button w3-large w3-padding-16" id="navbar">Home</a>
         <a href="contact.html" class="w3-bar-item w3-button w3-large w3-padding-16" id="navbar">Contact</a>
@@ -21,12 +31,16 @@
   </nav>
   <div class="w3-display-container" id="homeimagecontainer">
     <img src="images/kitchen-large.jpg" alt="Haukai Restaurant Kitchen" id="homeimage">
-    <div class="w3-display-middle w3-large"><h1 class="w3-opacity"><b>Welcome to Haukai Restaurant</b></h1></div>
-  </div> 
+    <div class="w3-display-middle w3-large">
+      <h1 class="w3-opacity"><b>Welcome to Haukai Restaurant</b></h1>
+    </div>
+  </div>
 </body>
 
 <footer class="w3-container w3-black w3-bottom">
-  <div class="w3-center"><p>Copyright 2021 Haukai Restaurant</p></div>
+  <div class="w3-center">
+    <p>Copyright 2021 Haukai Restaurant</p>
+  </div>
   <div class="w3-right"><a href="/private/staff.html">Staff</a></div>
 </footer>
 
